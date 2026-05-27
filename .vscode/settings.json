@@ -1,0 +1,18 @@
+{
+    "angelScript.includePath": [
+        ".",
+        "app",
+        "hono",
+        "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Portal 2 Community Edition\\p2ce\\addons\\shadowninewebserver\\code",
+        "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Portal 2 Community Edition\\p2ce\\addons\\shadowninewebserver\\code\\app",
+        "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Portal 2 Community Edition\\p2ce\\addons\\shadowninewebserver\\code\\hono"
+    ],
+    "angelScript.forceIncludePredefined": [
+        "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Portal 2 Community Edition\\p2ce\\data\\server\\as.predefined"
+    ],
+    "angelScript.implicitMutualInclusion": false,
+    "angelScript.definedSymbols": [
+        "CLIENT",
+        "SERVER"
+    ]
+}

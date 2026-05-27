@@ -1,0 +1,27 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	mod = "Web Server"
+	description = "A Hono-style web server framework and demo app running inside Portal 2: Community Edition AngelScript.\n\nIncludes the map:\nmaps/minecraft.bsp\n\nTo play it from the console:\nmap minecraft\n\nIMPORTANT SETUP:\nLaunch the game with:\n-netconport 8080\n\nThis opens the Source remote console port used by the local bridge. Without it, the browser bridge cannot send requests into P2CE.\n\nFeatures:\n- Hono-like routing in AngelScript\n- Query parameters, cookies, sessions, and custom headers\n- Demo page served through http://localhost:8080\n\nWork in progress."
+	type = "Map"
+	id = 0
+	thumbnail = "image.jpeg"
+	authors =
+	[
+		"ShadowNine",
+	]
+	dependencies = [  ]
+	tags =
+	[
+		"Singleplayer",
+		"Map",
+		"Scripts",
+		"Other",
+	]
+	ignore = [  ]
+	metadata =
+	{
+	}
+	assets =
+	{
+	}
+}

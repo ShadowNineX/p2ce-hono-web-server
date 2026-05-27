@@ -1,0 +1,24 @@
+# Editor and OS noise
+.vscode/*
+!.vscode/settings.json
+.vs/
+.idea/
+*.swp
+*.tmp
+Thumbs.db
+desktop.ini
+
+# Source/engine generated logs and caches
+*.log
+console.log
+*.cache
+
+# Map compile byproducts
+maps/*.lin
+maps/*.prt
+maps/*.nav
+maps/*.ain
+mapsrc/*.vmx
+mapsrc/*.bak
+mapsrc/*.bsp
+mapsrc/*.prt
