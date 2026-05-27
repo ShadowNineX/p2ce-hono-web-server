@@ -1,5 +1,7 @@
 # ShadowNine Web Server
 
+![ShadowNine Web Server preview](image.jpeg)
+
 A Portal 2: Community Edition addon that experiments with a Hono-style web server framework written in AngelScript.
 
 The addon includes:
