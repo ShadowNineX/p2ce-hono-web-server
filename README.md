@@ -37,7 +37,7 @@ The compiled BSP lives in `maps/minecraft.bsp`. The Hammer/source files are kept
 
 ## Code Layout
 
-- `code/init.as` is the AngelScript entry point loaded by P2CE.
+- `code/sv_init.as` is the server-side AngelScript entry point loaded by P2CE.
 - `code/commands.as` contains the raw P2CE server command registration.
 - `code/hono/hono.as` contains the Hono-style framework.
 - `code/hono/p2ce.as` adapts P2CE console commands into framework requests.
