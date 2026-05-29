@@ -11,6 +11,51 @@ The addon includes:
 - P2CE server command bindings in `code/commands.as`
 - A playable map at `maps/minecraft.bsp`
 
+## Install
+
+Install this addon with the local folder method. Place the whole `shadowninewebserver` folder directly inside P2CE's `addons` directory:
+
+```text
+C:\Program Files (x86)\Steam\steamapps\common\Portal 2 Community Edition\p2ce\addons\shadowninewebserver
+```
+
+### Download Without Git
+
+Normal users do not need Git installed.
+
+1. Open the GitHub page:
+
+```text
+https://github.com/ShadowNineX/p2ce-hono-web-server
+```
+
+2. Click the green `Code` button.
+3. Click `Download ZIP`.
+4. Extract the downloaded ZIP.
+5. Rename the extracted folder from `p2ce-hono-web-server-main` to `shadowninewebserver`.
+6. Move that `shadowninewebserver` folder into:
+
+```text
+C:\Program Files (x86)\Steam\steamapps\common\Portal 2 Community Edition\p2ce\addons
+```
+
+The final layout should look like this:
+
+```text
+Portal 2 Community Edition
+`-- p2ce
+    `-- addons
+        `-- shadowninewebserver
+            |-- addon.kv3
+            |-- code
+            |-- maps
+            `-- mapsrc
+```
+
+Keep `addon.kv3` at the root of the addon folder. Do not place the addon inside `steamapps\workshop\content`, and do not install it as only a packed VPK if you want the AngelScript code to load. The folder method keeps `code\sv_init.as` and the included scripts available as loose files for P2CE's script loader.
+
+After copying the folder, launch Portal 2: Community Edition and make sure the local addon named `Web Server` is enabled in the addon list if it is not already mounted.
+
 ## Setup
 
 Launch Portal 2: Community Edition with the remote console port enabled:
